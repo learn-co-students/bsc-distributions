@@ -73,29 +73,22 @@ Given that the person recalls at least 7 pieces of information, what is the prob
 
 ## Question 6 - Confidence Intervals
 
-The typical amount of sleep per night that adults get is normally distributed with a mean of 7.5 hours and a standard deviation of 1.5 hours. 
+The typical amount of sleep per night that adults get is normally distributed with a mean of 7.5 hours and a standard deviation of 1.5 hours.
 
-A random sample of 35 Flatiron Students has a mean of 8.3 hours of sleep with a standard deviation of 3 hours. 
+A random sample of 35 Flatiron Students has a mean of 8.3 hours of sleep with a standard deviation of 3 hours.
 
-What is the 95% confidence interval for mean the mean number of hours slept?
+In the cell below, calculate the sample's standard error and the z statistic for a 95% confidence interval. Assign your answer to the variable question_6 with a datatype of tuple and formatted as follows:
+
+(standard_error, z_value)
 
 
 ```python
-mu = 8.3
-std = 3
-n = 35
-
-sterr = std/(n**0.5)
-conf = (mu - 1.96*sterr, mu + 1.96*sterr)
-print('The 95% confidence interval is ', conf)
+# Your code here
 ```
-
-    The 95% confidence interval is  (7.3060985964392655, 9.293901403560737)
-
 
 ## Question 7 - Confidence Intervals
 
-**True or False**, our sample size is less than 30. We not know the population standard deviation. This means, we should use a t test.
+What is the 95% confidence interval for the mean number of hours slept by our sample of Flatiron Students?
 
 
 ```python
